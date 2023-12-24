@@ -47,7 +47,7 @@ function App() {
                 className="social-links linkedin"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/himanshu-rana-843383187/"
+                href="https://media.licdn.com/dms/image/D5603AQElAfnEIwn-4Q/profile-displayphoto-shrink_400_400/0/1703420779885?e=1709164800&v=beta&t=_QdtYTnlv8KK6R-CUdIfXsMd_yxzVdskaBFqrknIOoI"
               >
                 <ion-icon name="logo-linkedin"></ion-icon>
               </a>
