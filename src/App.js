@@ -57,7 +57,7 @@ function App() {
                 className="social-links blog"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://twitter.com/himanshu__Rana"
+                href="https://hashnode.com/edit/ckpdwg83y030n7ns17gmu6dzl"
               >
                 <ion-icon name="cube-outline"></ion-icon>
               </a>
