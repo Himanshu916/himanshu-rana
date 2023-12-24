@@ -47,7 +47,7 @@ function App() {
                 className="social-links linkedin"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://media.licdn.com/dms/image/D5603AQElAfnEIwn-4Q/profile-displayphoto-shrink_400_400/0/1703420779885?e=1709164800&v=beta&t=_QdtYTnlv8KK6R-CUdIfXsMd_yxzVdskaBFqrknIOoI"
+                href="https://www.linkedin.com/in/himanshu-rana-843383187/"
               >
                 <ion-icon name="logo-linkedin"></ion-icon>
               </a>
@@ -71,7 +71,7 @@ function App() {
           <div className="profile">
             <img
               className="profile-pic"
-              src="https://media.licdn.com/dms/image/C5603AQFNAAmBlLwIJg/profile-displayphoto-shrink_400_400/0/1618350316921?e=1704931200&v=beta&t=f5-2hR-k0SWFnVW0lpJG9HsPKt-SvFEr_L_7P5HmgZg"
+              src="images/profilepic.jpg"
               alt="Himanshu Profile Pic"
             />
           </div>
