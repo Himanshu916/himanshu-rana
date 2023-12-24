@@ -6,8 +6,9 @@ function App() {
         <div className="sidebar-intro">
           <h1>Hello, I am Himanshu Rana</h1>
           <p>
-            A Web Developer passionate about publishing new and useful
-            products,enhancing the internet experience for the users.
+            A FrontEnd Developer passionate about learning new and useful
+            skills,building interactive web applications and try to makes better
+            user experience.
           </p>
           <a
             style={{ textDecoration: "none", marginTop: "2rem" }}
@@ -22,13 +23,44 @@ function App() {
           <p>Social Handles:</p>
           <div id="a" className="sidebar-social-icons">
             <button className="icon">
-              <ion-icon name="logo-twitter"></ion-icon>
+              <a
+                className="social-links twitter"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://twitter.com/himanshu__Rana"
+              >
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
             </button>
             <button className="icon">
-              <ion-icon name="logo-github"></ion-icon>
+              <a
+                className="social-links github"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/Himanshu916"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
             </button>
             <button className="icon">
-              <ion-icon name="logo-linkedin"></ion-icon>
+              <a
+                className="social-links linkedin"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/himanshu-rana-843383187/"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </button>
+            <button className="icon">
+              <a
+                className="social-links blog"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://twitter.com/himanshu__Rana"
+              >
+                <ion-icon name="cube-outline"></ion-icon>
+              </a>
             </button>
           </div>
         </div>
@@ -48,7 +80,8 @@ function App() {
             <p>
               I started my web development journey in November, 2020. Since then
               I have learnt new technologies and acquired Skills like
-              Html,Css,Javascript,Node,Git. <br />
+              Html,Css,Javascript,React,React Query,Styled Components,Tailwind
+              CSS,Redux,Redux Toolkit,Node,Git. <br />
               Then I joined{" "}
               <a
                 className="external"
@@ -70,20 +103,266 @@ function App() {
               to suggest diets based on fat loss goal.
             </p>
             <p>
-              I learnt web development at Neog Camp, A Cohort Based Course run
-              by Tanay Pratap.I was a part of a team of 19 people where we
-              discussed about project ideas , concepts and doubts.
+              I learnt web development at{" "}
+              <a
+                className="external"
+                href="https://kyloapps.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Neog Camp
+              </a>{" "}
+              , a Cohort Based Course run by{" "}
+              <a
+                className="external"
+                href="https://kyloapps.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Tanay Pratap
+              </a>{" "}
+              .
             </p>
 
             <p>
-              I believe in showing a proof of my work, rather than listing my
+              {/* I believe in showing a proof of my work, rather than listing my
               skills on a shiny piece of paper. Some of my works are shown
-              below.
+              below. */}
+              “If your actions don’t live up to your words, you have nothing to
+              say.” — DaShanne Stokes.I took this sentence seriously and that's
+              why I believe in showing proof of my work, rather than listing my
+              skills on Resume.So, Some of my works are shown below.
             </p>
           </div>
         </section>
-        <section className="section section-projec section-project-1">
-          <h3>Project 1-Component Library</h3>
+        <section className="section section-project section-project-1">
+          <h3>Project 1-Mom's Nivaala</h3>
+
+          <div className="project-img">
+            <div className="project-laptop">
+              <a
+                href="http://mom-nivaala.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="project-pic"
+                  src="images/momsnivaala.png"
+                  alt="moms nivaala"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="project-links">
+            <a
+              href="https://github.com/Himanshu916/e_commerce"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Source Code
+            </a>
+            <a
+              href="http://mom-nivaala.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <ion-icon name="logo-react"></ion-icon>
+            </a>
+          </div>
+          <div className="lists">
+            <div className="list-box">
+              <h3>What I learned through this project</h3>
+              <ul className="list">
+                <li>Handling authentication on client side.</li>
+                <li>Data fetching and consume it to inside UI.</li>
+                <li>Dynamic Routing</li>
+                <li>Compound Component Pattern</li>
+                <li>Integration of UI state with remote state.</li>
+                <li>How to read and set local storage.</li>
+                <li>How to organise code.</li>
+              </ul>
+            </div>
+            <div className="list-box">
+              <h3>What Tech Stack I used ?</h3>
+              <ul className="list">
+                <li> React , Redux Tookit</li>
+                <li>Styled Components</li>
+                <li>React Query</li>
+                <li>React Toaster</li>
+                <li>React Router Dom</li>
+                <li>Supabase for APIs</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section className="section section-project section-project-2">
+          <h3>Project 2-Note Keeping App</h3>
+
+          <div className="project-img">
+            <div className="project-laptop">
+              <a
+                href="http://keepnoteshimanshu.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="project-pic"
+                  src="images/project2.png"
+                  alt="note keeping Pic"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="project-links">
+            <a
+              href="https://github.com/Himanshu916/keep-notes/tree/master/src"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Source Code
+            </a>
+            <a
+              href="http://keepnoteshimanshu.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <ion-icon name="logo-react"></ion-icon>
+            </a>
+          </div>
+          <div className="lists">
+            <div className="list-box">
+              <h3>What I learned through this project</h3>
+              <ul className="list">
+                <li>Handling Global State</li>
+                <li>How to eliminate prop drilling.</li>
+                <li>How to handle protected routes.</li>
+              </ul>
+            </div>
+            <div className="list-box">
+              <h3>What Tech Stack I used ?</h3>
+              <ul className="list">
+                <li> React</li>
+                <li>React Router Dom</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section className="section section-project section-project-3">
+          <h3>Project 3-Wild Oasis</h3>
+
+          <div className="project-img">
+            <div className="project-laptop">
+              <a
+                href="wild-oasis-himanshu.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="project-pic"
+                  src="images/wild.png"
+                  alt="Himanshu Profile Pic"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="project-links">
+            <a
+              href="https://github.com/Himanshu916/wild-oasis"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Source Code
+            </a>
+            <a
+              href="https://wild-oasis-himanshu.vercel.app/login"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <ion-icon name="logo-react"></ion-icon>
+            </a>
+          </div>
+          <div className="lists">
+            <div className="list-box">
+              <h3>What I learned through this project</h3>
+              <ul className="list">
+                <li>Handling authentication on client side.</li>
+                <li>Data fetching and consume it to inside UI.</li>
+                <li>Dynamic Routing</li>
+                <li>Compound Component Pattern</li>
+                <li>Integration of UI state with remote state.</li>
+                <li>How to read and set local storage.</li>
+                <li>How to organise code.</li>
+              </ul>
+            </div>
+            <div className="list-box">
+              <h3>What Tech Stack I used ?</h3>
+              <ul className="list">
+                <li> React , Redux Tookit</li>
+                <li>Styled Components</li>
+                <li>React Query</li>
+                <li>React Toaster</li>
+                <li>React Router Dom</li>
+                <li>Supabase for APIs</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section className="section section-project section-project-4">
+          <h3>Project 4-QUiz Mania</h3>
+
+          <div className="project-img">
+            <div className="project-laptop">
+              <a
+                href="https://github.com/Himanshu916/quiz-mania"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="project-pic"
+                  src="images/quiz.png"
+                  alt="Himanshu Profile Pic"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="project-links">
+            <a
+              href="https://github.com/Himanshu916/quiz-mania"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Source Code
+            </a>
+            <a
+              href="https://the-quiz-mania.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <ion-icon name="logo-react"></ion-icon>
+            </a>
+          </div>
+          <div className="lists">
+            <div className="list-box">
+              <h3>What I learned through this project ?</h3>
+              <ul className="list">
+                <li>How to update multiple states together.</li>
+                <li>Worked with useReducer</li>
+              </ul>
+            </div>
+            <div className="list-box">
+              <h3>What Tech Stack I used ?</h3>
+              <ul className="list">
+                <li> React </li>
+                <li>CSS</li>
+                <li>Supabase for APIs</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section className="section section-projec section-project-5">
+          <h3>Project 5-Component Library</h3>
           <div className="project-img">
             <div className="project-laptop">
               <a
@@ -117,54 +396,25 @@ function App() {
               <ion-icon name="logo-react"></ion-icon>
             </a>
           </div>
-        </section>
-        <section className="section section-project section-project-2">
-          <h3>Project 2-Note Keeping App</h3>
-
-          <div className="project-img">
-            <div className="project-laptop">
-              <a
-                href="http://keepnoteshimanshu.netlify.app"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className="project-pic"
-                  src="images/project2.png"
-                  alt="Himanshu Profile Pic"
-                />
-              </a>
+          <div className="lists">
+            <div className="list-box">
+              <h3>What I learned through this project ?</h3>
+              <ul className="list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Sementic Elements</li>
+                <li>A bit about accessibility</li>
+                <li>Visual Hierarchy</li>
+              </ul>
+            </div>
+            <div className="list-box">
+              <h3>What Tech Stack I used ?</h3>
+              <ul className="list">
+                <li>Hyper Text Markup Language</li>
+                <li>Pure CSS</li>
+              </ul>
             </div>
           </div>
-          <div className="project-links">
-            <a
-              href="https://github.com/Himanshu916/keep-notes/tree/master/src"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Source Code
-            </a>
-            <a
-              href="http://keepnoteshimanshu.netlify.app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <ion-icon name="logo-react"></ion-icon>
-            </a>
-          </div>
-        </section>
-        <section className="section section-project section-project-3">
-          <h3>Project 3 - Quiz App</h3>
-          <p className="comingSoon">Coming Soon...</p>
-        </section>
-        <section className="section section-project section-project-4">
-          <h3>Project 4 - E-Commerce App</h3>
-          <p className="comingSoon">Coming Soon...</p>
-        </section>
-        <section className="section section-project section-project-5">
-          <h3>Project 5 - Video Library</h3>
-
-          <p className="comingSoon">Coming Soon...</p>
         </section>
       </main>
     </div>

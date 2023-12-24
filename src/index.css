@@ -158,20 +158,19 @@ code {
   font-size: 1.5rem;
 }
 .section-project-1 {
-  background-color: #1b1f2e;
+  background-color: #14532d;
 }
 .section-project-2 {
-  /* background-color: #5e1e30; */
   background-color: #2e030f;
 }
 .section-project-3 {
-  background-color: #083344;
+  background-color: #172554;
 }
 .section-project-4 {
-  background-color: #1b1f2e;
+  background-color: #222;
 }
 .section-project-5 {
-  background-color: #27272a;
+  background-color: #1b1f2e;
 }
 
 @media (max-width: 950px) {
@@ -193,4 +192,66 @@ code {
 .external {
   text-decoration: none;
   color: #d97706;
+}
+
+.social-links {
+  text-decoration: none;
+}
+.social-links.twitter {
+  color: blue;
+}
+.social-links.github {
+  color: grey;
+}
+.social-links.linkedin {
+  color: rgb(5, 5, 168);
+}
+.social-links.blog {
+  color: #14532d;
+}
+.lists {
+  display: flex;
+  gap: 1rem;
+}
+.list-box {
+  /* border: 1px solid black; */
+  border-radius: 11px;
+
+  box-shadow: 0px 0px 5px 2px rgb(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 1.2rem 1.8rem;
+  flex: 1;
+}
+
+.section-project-1 .list-box {
+  background-color: rgba(59, 154, 99, 0.2);
+}
+.list-box h3 {
+  margin-bottom: 2rem;
+}
+.list {
+  list-style-type: circle;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 2.5rem;
+}
+
+@media (max-width: 950px) {
+  .lists {
+    flex-direction: column;
+  }
+}
+
+.section-project-2 .list-box {
+  background-color: #541929;
+}
+.section-project-3 .list-box {
+  background-color: #2f3c64;
+}
+.section-project-4 .list-box {
+  background-color: #54515132;
+}
+.section-project-5 .list-box {
+  background-color: #202640;
 }
