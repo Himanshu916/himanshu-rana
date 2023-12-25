@@ -254,7 +254,7 @@ function App() {
           <div className="project-img">
             <div className="project-laptop">
               <a
-                href="wild-oasis-himanshu.vercel.app/"
+                href="https://wild-oasis-himanshu.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -315,7 +315,7 @@ function App() {
           <div className="project-img">
             <div className="project-laptop">
               <a
-                href="https://github.com/Himanshu916/quiz-mania"
+                href="https://the-quiz-mania.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
